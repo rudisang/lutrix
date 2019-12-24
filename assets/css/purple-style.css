@@ -1555,7 +1555,7 @@ Services CSS
 
 .services-right-image.single-right-image img:last-child {
   position: relative;
-  left: 5000px;
+  left: 0;
   top: 0;
 }
 
