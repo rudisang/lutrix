@@ -9,8 +9,7 @@ Vue.component('lutrix-footer',{
 						<div class="logo">
 							<a href="/"><img src="assets/img/footer-logo.png" alt="lutrix logo"></a>
 						</div>
-						<p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
-							facilisis.</p>
+						<p>We help businesses, regardless of size, to establish an online presence with a view to enhance their business environment</p>
 					</div>
 				</div>
 
@@ -43,9 +42,9 @@ Vue.component('lutrix-footer',{
 						<h3>Address</h3>
 
 						<ul class="footer-contact-info">
-							<li><i data-feather="map-pin"></i> 27 Division St, New York, NY 10002, USA</li>
+							<li><i data-feather="map-pin"></i> Gaborone, Botswana</li>
 							<li><i data-feather="mail"></i> Email: <a href="#">info@lutrix.co.bw</a></li>
-							<li><i data-feather="phone-call"></i> Phone: <a href="#">+ (267) 984 754</a></li>
+							<li><i data-feather="phone-call"></i> Phone: <a href="#">+ (267) 75 620 565</a></li>
 						</ul>
 						<ul class="social-links">
 							<li><a href="#" class="facebook"><i data-feather="facebook"></i></a></li>
