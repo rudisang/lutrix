@@ -1,4 +1,4 @@
-Vue.component({
+Vue.component('lutrix-service',{
 
     props:['img', 'title', 'description', 'modal-target', 'download-link'],
 
