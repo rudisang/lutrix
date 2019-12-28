@@ -9,7 +9,7 @@ Vue.component('lutrix-service',{
                     <img :src="img" alt="service image">
                     <h3><a href="">{{title}}</a></h3>
                     <p>{{description}}</p>
-                    <a href="" class="btn" data-toggle="modal" :data-target="modaltarget">View</a> <a :href="downloadlink" class="btn" download>Download</a>
+                    <a href="" class="btn" data-toggle="modal" :data-target="modaltarget"><i data-feather="eye"></i></a> <a :href="downloadlink" class="btn" download><i data-feather="download"></i></a>
                 </div>
             </div>
     `
