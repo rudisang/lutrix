@@ -74,7 +74,7 @@
         <!-- End Page Title -->
         
         <!-- Start Services Area -->
-		<section class="services-area-two ptb-80 bg-f9f6f6">
+		<section class="services-area-two ptb-80 bg-f9f6f6" id="lutrix-services">
 			<div class="container">
 				<div class="section-title">
 					<h2>Our Services</h2>
@@ -83,41 +83,18 @@
 				</div>
 
 				<div class="row">
-					<div class="col-lg-4 col-md-6">
-						<div class="single-services-box">
-							<img src="assets/img/graphic.png" alt="">
 
-							<h3><a href="#">Incredible Infrastructure</a></h3>
-							<p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+					<lutrix-service img="assets/img/graphic.png" title="Graphic Design"
+						description="Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua."
+					    modaltarget="#graphic" 
+						downloadlink="">
+					</lutrix-service>
 
-							<a href="" class="btn" data-toggle="modal" data-target="#myModal">View</a> <a href="" class="btn">Download</a>
-						</div>
-					</div>
+					<lutrix-modal id="graphic" 
+					title="Graphic Design"
+					view="assets/img/graphic.png"></lutrix-modal>
 
-					<!-- The Modal -->
-<div class="modal" id="myModal">
-	<div class="modal-dialog">
-	  <div class="modal-content">
-  
-		<!-- Modal Header -->
-		<div class="modal-header">
-		  <h4 class="modal-title">Modal Heading</h4>
-		  <button type="button" class="close" data-dismiss="modal">&times;</button>
-		</div>
-  
-		<!-- Modal body -->
-		<div class="modal-body">
-		  Modal body..
-		</div>
-  
-		<!-- Modal footer -->
-		<div class="modal-footer">
-		  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-		</div>
-  
-	  </div>
-	</div>
-  </div>
+
 
 					<div class="col-lg-4 col-md-6">
 						<div class="single-services-box">
@@ -255,5 +232,7 @@
 			
 				<script src="assets/lutrix-components/navigation.js"></script>
 				<script src="assets/lutrix-components/footer.js"></script>
+				<script src="assets/lutrix-components/lutrix-service-card.js"></script>
+			
 	</body>
 </html>
